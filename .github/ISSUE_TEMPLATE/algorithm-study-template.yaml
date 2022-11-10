@@ -1,0 +1,24 @@
+name: 알고리즘 공부 템플릿
+description: 책, 유튜브 등 알고리즘 공부를 하고 공부내용을 적는 템플릿
+title: "[플랫폼] 공부내용"
+labels: ["Study"]
+assignees: heydoy
+
+body:
+  - type: input
+    id: algorithm-title
+    attributes:
+      label: 요약
+      description: 공부한 내용 키워드 적기
+      placeholder: "e.g. 깊이 우선 탐색과 관련된 Swift 메서드"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: algorithm-contents
+    attributes:
+      label: 공부한 내용
+      description: 공부한 내용 적기
+      placeholder: "e.g. Foundation 기본 라이브러리에서 그래프 탐색을 지원하는 메서드가 있는데..." 
+    validations:
+      required: true
